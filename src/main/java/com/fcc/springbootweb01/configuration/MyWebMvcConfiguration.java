@@ -16,6 +16,7 @@ public class MyWebMvcConfiguration implements WebMvcConfigurer {
                 .addPathPatterns("/**")
                 .excludePathPatterns("/", "/login")
                 .excludePathPatterns("/css/**", "/fonts/**", "/images/**", "/js/**");
+        System.out.println("拦截器");
 
     }
 }
