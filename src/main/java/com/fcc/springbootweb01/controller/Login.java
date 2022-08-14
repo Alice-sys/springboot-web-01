@@ -61,6 +61,7 @@ public class Login {
     @ResponseBody
     public String testGit(){
         System.out.println("testGit");
+        System.out.println("master添加了一行！");
         return "testGit";
     }
 
