@@ -61,6 +61,7 @@ public class Login {
     @ResponseBody
     public String testGit(){
         System.out.println("testGit");
+        System.out.println("branch2 添加一行！");
         return "testGit";
     }
 
